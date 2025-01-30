@@ -38,7 +38,7 @@ export function SignUpSteps({ currentStep }: SignUpStepsProps) {
                   step.id === currentStep ? "bg-primary" : "bg-transparent"
                 )} />
               </div>
-              <span className="ml-4 text-sm font-medium text-muted-foreground">
+              <span className="ml-4 text-[#424D53] text-center font-inter text-sm font-semibold leading-5">
                 {step.name}
               </span>
             </div>
