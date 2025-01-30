@@ -21,7 +21,7 @@ const Index = () => {
       </div>
 
       {/* Right side - Form */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center">
+      <div className="w-full lg:w-1/2 flex flex-col items-start px-16 py-6 pb-8 gap-6">
         <SignUpForm />
       </div>
     </div>
