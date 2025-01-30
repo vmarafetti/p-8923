@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex">
       {/* Left side - Hero Image */}
-      <div className="hidden lg:flex lg:w-1/2 bg-muted items-center justify-center relative">
+      <div className="hidden lg:flex lg:w-1/2 items-center justify-center relative" style={{ background: "linear-gradient(131deg, #173B3F 0%, #205257 100%)" }}>
         <div className="absolute inset-0 flex flex-col justify-center p-12 bg-gradient-to-b from-transparent to-background/90">
           <h2 className="text-4xl font-bold mb-4 text-foreground">
             84% of technologists increase their salary with Andela.
