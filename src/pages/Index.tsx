@@ -3,12 +3,7 @@ import { SignUpForm } from "@/components/auth/SignUpForm";
 const Index = () => {
   return (
     <div className="min-h-screen flex">
-      {/* Left side - Form */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center">
-        <SignUpForm />
-      </div>
-
-      {/* Right side - Hero Image */}
+      {/* Left side - Hero Image */}
       <div className="hidden lg:flex lg:w-1/2 bg-muted items-center justify-center relative">
         <div className="absolute inset-0 flex flex-col justify-center p-12 bg-gradient-to-b from-transparent to-background/90">
           <h2 className="text-4xl font-bold mb-4 text-foreground">
@@ -23,6 +18,11 @@ const Index = () => {
           alt="Andela Hero"
           className="w-full h-full object-cover"
         />
+      </div>
+
+      {/* Right side - Form */}
+      <div className="w-full lg:w-1/2 flex items-center justify-center">
+        <SignUpForm />
       </div>
     </div>
   );
